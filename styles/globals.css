@@ -24,11 +24,14 @@ a {
   height: 100vh;
 }
 .bgVideo{
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
+  width: 100vw!important;
+  height: 100vh!important;
+  
   position: fixed;
   z-index: -1;
+}
+.bgVideo video{
+  object-fit: cover!important;
 }
 @media (prefers-color-scheme: dark) {
   html {
